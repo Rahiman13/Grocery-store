@@ -1,0 +1,29 @@
+.all-products-link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.home-link {
+    color: #000;
+}
+
+.pic {
+    width: 45px;
+    height: 40px;
+}
+
+.dropdown-items {
+    color: #000;
+    font-size: 1.1em;
+}
+
+.logo-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 700;
+    /* Example color */
+    /* Add any other desired styles */
+}

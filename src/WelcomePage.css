@@ -1,0 +1,58 @@
+/* WelcomePage.css */
+.welcome-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://www.the-future-of-commerce.com/wp-content/uploads/2019/02/thumbnail-f7170de6e5a486a38e2e41d13f574324-1200x630.jpeg');
+    background-size: cover;
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.content {
+    text-align: center;
+    z-index: 1;
+}
+
+.content h1 {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.5rem;
+    color: #fefefe;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.content button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+    background-color: #ddd;
+}
